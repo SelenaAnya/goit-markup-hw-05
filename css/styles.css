@@ -384,14 +384,13 @@ span {
     margin-right: 0;
 }
 
-.we-do-block::before {
-    content: "";
+.we-do-block {
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
     height: 70px;
     background: var(--backgriund-color-wedo);
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    bottom: 0;
     right: 0;
 }
 
