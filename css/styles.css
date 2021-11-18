@@ -195,10 +195,11 @@ span {
 .menu a::after {
     content: "";
     height: 3px;
-    background-color: var(--accent-text-color);
+    color: var(--accent-text-color);
     display: block;
     margin-top: 33px;
     opacity: 0;
+    background-color: var(--accent-text-color);
 }
 
 .menu a:hover::after,
@@ -447,6 +448,30 @@ span {
 .direction-name {
     padding: 24px 20px;
 }
+.direction-hover {
+    display: inline-block;
+    width: 370px;
+    height: 294px;
+    background-color: var(--backgriund-color-hover);
+    top: 258px;
+    position: absolute;
+    opacity: 0;
+}
+
+.direction-hover:hover,
+.direction-hover:focus,
+.direction-hover:active {
+    opacity: 3;
+}
+
+.direction-hover p {
+    padding: 24px 63px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--);
+}
 
 .name-block {
     font-size: 18px;
@@ -458,7 +483,7 @@ span {
 }
 
 .direction p {
-    color: var(--header-text-color);
+    color: var(--title-text-color);
     font-size: 16px;
     margin-top: 4px;
     letter-spacing: 0.03em;
