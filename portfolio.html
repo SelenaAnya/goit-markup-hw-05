@@ -13,20 +13,20 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- ------------------ Лого + меню ---------------------------------------- -->
+    <!--              Лого + меню                    -->
 
     <header class="header container">
       <a href="#" class="logo">Web<span>Studio</span></a>
       <nav class="nav">
         <ul class="menu">
           <li class="menu-item">
-            <a href="./index.html">Студия</a>
+            <a class="link-menu" href="./index.html">Студия</a>
           </li>
           <li class="menu-item">
-            <a class="current" href="#">Портфолио</a>
+            <a class="current link-menu" href="#">Портфолио</a>
           </li>
           <li class="menu-item">
-            <a href="#">Контакты</a>
+            <a class="link-menu" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
     </header>
     <main>
       <div class="line"></div>
-      <!-- --------------------------- Фильтр ------------------------- -->
+      <!--                   Фильтр                 -->
       <section class="sectoin">
         <div class="container">
           <h1 hidden>Our projects</h1>
@@ -73,166 +73,133 @@
             </li>
           </ul>
 
-          <!-- --------------------------------- Проекты --------------------------------- -->
+          <!--                  Проекты            -->
           <ul class="our-project">
             <li class="direction">
-              <div class="direction-title">
-              <img src="./img/img.jpg" alt="Технокряк" />
-              <div class="direction-hover">
-              <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
+              <a href="#" class="direction-link">
+                <img src="./img/img.jpg" alt="Технокряк" />
+                <div class="direction-name">
+                  <h2 class="name-block">Технокряк</h2>
+                  <p>Веб-сайт</p>
+                </div></a
+              >
+            </li>
+            <li class="direction">
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-1.jpg"
+                  width="370"
+                  height="294"
+                  alt="Постер New Orlean vs Golden Star"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Постер New Orlean vs Golden Star</h2>
+                  <p>Дизайн</p>
                 </div>
-              </div>
-              <div class="direction-name">
-                <h2 class="name-block">Технокряк</h2>
-                <p>Веб-сайт</p>
-              </div>
+              </a>
             </li>
             <li class="direction">
-              <div class="direction-title">
-              <img
-                src="./img/img-1.jpg"
-                width="370"
-                height="294"
-                alt="Постер New Orlean vs Golden Star"
-              />
-              <div class="direction-hover">
-                <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-2.jpg"
+                  width="370"
+                  height="294"
+                  alt="Ресторан Seafood"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Ресторан Seafood</h2>
+                  <p>Приложение</p>
                 </div>
-              </div>
-              <div class="direction-name">
-                <h2 class="name-block">Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-              </div>
+              </a>
             </li>
             <li class="direction">
-              <div class="direction-title">
-              <img
-                src="./img/img-2.jpg"
-                width="370"
-                height="294"
-                alt="Ресторан Seafood"
-              />
-              <div class="direction-hover">              
-                <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
-                </div>              
-              </div>
-              <div class="direction-name">
-                <h2 class="name-block">Ресторан Seafood</h2>
-                <p>Приложение</p>
-              </div>
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-3.jpg"
+                  width="370"
+                  height="294"
+                  alt="Проект Prime"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Проект Prime</h2>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="direction">
-              <div class="direction-title">
-              <img
-                src="./img/img-3.jpg"
-                width="370"
-                height="294"
-                alt="Проект Prime"
-              />
-              <div class="direction-hover">              
-                <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
-                </div>             
-              </div>
-              <div class="direction-name">
-                <h2 class="name-block">Проект Prime</h2>
-                <p>Маркетинг</p>
-              </div>
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-4.jpg"
+                  width="370"
+                  height="294"
+                  alt="Проект Boxes"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Проект Boxes</h2>
+                  <p>Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="direction">
-              <div class="direction-title">
-              <img
-                src="./img/img-4.jpg"
-                width="370"
-                height="294"
-                alt="Проект Boxes"
-              />
-                <div class="direction-hover">              
-                <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
-                </div> 
-              </div>
-              <div class="direction-name">
-                <h2 class="name-block">Проект Boxes</h2>
-                <p>Приложение</p>
-              </div>
-            </li>
-            <li class="direction">
-              <div class="direction-title">
+              <a href="#" class="direction-link">
               <img
                 src="./img/img-5.jpg"
                 width="370"
                 height="294"
                 alt="Inspiration has no Borders"
               />
-              <div class="direction-hover">              
-                <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
-              </div>             
-            </div>
               <div class="direction-name">
                 <h2 class="name-block">Inspiration has no Borders</h2>
                 <p>Веб-сайт</p>
               </div>
             </li>
             <li class="direction">
-              <div class="direction-title">
-              <img
-                src="./img/img-6.jpg"
-                width="370"
-                height="294"
-                alt="Издание Limited Edition"
-              />
-              <div class="direction-hover">              
-                <p class="hover-text">Технокряк это современная площадка распространения 
-                коронавируса. Компании используют эту платформу для цифрового шпионажа 
-                и атак на защищённые сервера конкурентов.</p>
-              </div>            
-            </div>
-                <h2 class="name-block">Издание Limited Edition</h2>
-                <p>Дизайн</p>
-              </div>
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-6.jpg"
+                  width="370"
+                  height="294"
+                  alt="Издание Limited Edition"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Издание Limited Edition</h2>
+                  <p>Дизайн</p>
+                </div></a
+              >
             </li>
             <li class="direction">
-              <div class="direction-name">
-              <img
-                src="./img/img-7.jpg"
-                width="370"
-                height="294"
-                alt="Проект LAB"
-              /></div>
-              <div class="direction-name">
-                <h2 class="name-block">Проект LAB</h2>
-                <p>Маркетинг</p>
-              </div>
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-7.jpg"
+                  width="370"
+                  height="294"
+                  alt="Проект LAB"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Проект LAB</h2>
+                  <p>Маркетинг</p>
+                </div></a
+              >
             </li>
             <li class="direction">
-              <div class="direction-name">
-              <img
-                src="./img/img-8.jpg"
-                width="370"
-                height="294"
-                alt="Growing Business"
-              /></div>
-              <div class="direction-name">
-                <h2 class="name-block">Growing Business</h2>
-                <p>Приложение</p>
-              </div>
+              <a href="#" class="direction-link">
+                <img
+                  src="./img/img-8.jpg"
+                  width="370"
+                  height="294"
+                  alt="Growing Business"
+                />
+                <div class="direction-name">
+                  <h2 class="name-block">Growing Business</h2>
+                  <p>Приложение</p>
+                </div></a
+              >
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <!-- -------------------------------------- нижнее меню ----------------------------- -->
+    <!--                  нижнее меню                 -->
     <footer class="footer section">
       <div class="container footer-contacts-social">
         <div class="footer-block">
@@ -288,6 +255,5 @@
         </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
   </body>
 </html>
