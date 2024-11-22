@@ -591,7 +591,25 @@ img {
     background-color: #31D0AA;
 }
 
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
 
+.subscribe {
+    max-width: 453px;
+}
+
+.form {
+    position: relative;
+
+}
+
+.text-inn {
+    position: absolute;
+    padding: 16px 8px;
+}
 
 .submit {
     padding: 8px 24px;
