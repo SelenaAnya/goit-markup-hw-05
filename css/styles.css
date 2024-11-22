@@ -80,8 +80,6 @@ img {
     height: auto;
 }
 
-/* hero section */
-
 .header-page {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -224,22 +222,20 @@ img {
     color: #404bbf;
 }
 
+/* hero section */
+
 .hero {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(/images/peopleoffice.jpg);
-    max-width: 1440px;
+    /* max-width: 1440px; */
     background-repeat: no-repeat;
     padding: 188px 0;
     background-position: center;
     background-size: cover;
 
 }
-
-/* .hero-block {
-
-} */
 
 .hero-title {
     font-size: 56px;
@@ -593,4 +589,11 @@ img {
 .footer-content .socials-link:hover,
 .footer-content .socials-link:focus {
     background-color: #31D0AA;
+}
+
+
+
+.submit {
+    padding: 8px 24px;
+
 }
