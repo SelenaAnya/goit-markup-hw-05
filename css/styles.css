@@ -703,11 +703,11 @@ label {
 }
 
 .modal-form-imput {
-    position: relative;
     width: 100%;
 }
 
 .modal-form-label {
+    position: relative;
     height: 40px;
 }
 
@@ -719,8 +719,8 @@ label {
     position: absolute;
     box-sizing: border-box;
     border-radius: 50%;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     fill: #2E2F42;
