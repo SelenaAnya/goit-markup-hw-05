@@ -704,6 +704,15 @@ label {
 
 .modal-form-imput {
     width: 100%;
+    border-color: #2E2F4266;
+}
+
+.modal-form-imput:focus {
+    border-color: #4D5AE5;
+}
+
+logo-modal-form:focus {
+    fill: #4D5AE5;
 }
 
 .modal-form-label {
@@ -713,6 +722,8 @@ label {
 
 .logo-modal-form {
     position: absolute;
+    fill: #000;
+
 }
 
 .logo-modal-close {
