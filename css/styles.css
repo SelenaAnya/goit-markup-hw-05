@@ -686,6 +686,7 @@ label {
     margin-bottom: 16px;
     width: 100%;
     text-align: center;
+    margin-top: 24px;
 }
 
 .modal-close-btn {
@@ -693,11 +694,25 @@ label {
     position: absolute;
     top: 24px;
     right: 24px;
+}
 
+.modal-form {
+    display: block;
+    margin-bottom: 8px;
+    color: #8E8F99;
+}
+
+.modal-form-imput {
+    position: relative;
+    width: 100%;
 }
 
 .modal-form-label {
-    position: relative;
+    height: 40px;
+}
+
+.logo-modal-form {
+    position: absolute;
 }
 
 .logo-modal-close {
@@ -717,4 +732,6 @@ textarea {
     width: 360px;
     height: 120px;
     resize: none;
+    padding: 8px 16px;
+    color: #8E8F99;
 }
