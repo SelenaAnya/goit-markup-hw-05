@@ -682,17 +682,18 @@ label {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: #ffffff;
+    color: #2E2F42;
     margin-bottom: 16px;
-    text-align: left;
-
+    width: 100%;
+    text-align: center;
 }
 
 .modal-close-btn {
     color: #2E2F42;
-    text-align: center;
-    margin: 0 auto;
     position: absolute;
+    top: 24px;
+    right: 24px;
+
 }
 
 .modal-form-label {
