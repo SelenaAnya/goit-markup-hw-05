@@ -595,16 +595,21 @@
         <div class="subscribe">
           <p class="media">Subscribe</p>
           <div class="footer-form">
-            <form action="mailfrom" autocomplete="on">
-              <input class="form" type="e-mail" name="userEmail" />
-              <p class="text-inn">E-mail</p>
-              <button class="media submit">
-                Subscribe
-                <svg class="btn-plaine" width="24" height="24">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </button>
+            <form type="email" autocomplete="on" name="subscriptionForm">
+              <!-- <p class="text-inn">E-mail</p> -->
+              <input
+                class="form"
+                type="e-mail"
+                name="userEmail"
+                placeholder="E-mail"
+              />
             </form>
+            <button class="media submit">
+              Subscribe
+              <svg class="btn-plaine" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -616,10 +621,13 @@
             <use href="./images/icons.svg#icon-close-black-18dp1"></use>
           </svg>
         </button>
-        <p class="media">Leave your contacts and we will call you back</p>
-        <form class="modak-form" name="review" action="">
-          <div class="modal-form-imput">
-            <label class="modal-form" form="userEmail"> User numder </label>
+        <p class="media modal-text">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form" name="review" action="">
+          <!-- <div class="modal-form-imput"> -->
+          <label class="modal-form" form="userEmail">
+            Name
             <input
               class="modal-form-imput"
               type="text"
@@ -629,7 +637,36 @@
             <svg class="logo-modal-form" width="18" height="18">
               <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
             </svg>
-          </div>
+          </label>
+          <label class="modal-form" form="userPhone">
+            Phone
+            <input
+              class="modal-form-imput"
+              type="phone"
+              id="user-phone"
+              name="user-phone"
+            />
+            <svg class="logo-modal-form" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label class="modal-form" form="userEmail">
+            Email
+            <input
+              class="modal-form-imput"
+              type="email"
+              id="user-email"
+              name="user-email"
+            />
+            <svg class="logo-modal-form" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label class="modal-form" form="userEmail">
+            Comment
+            <textarea name="user-text" placeholder="Text input"></textarea>
+          </label>
+          <!-- </div> -->
         </form>
       </div>
     </div>
