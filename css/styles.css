@@ -661,13 +661,16 @@ img {
 }
 
 .modal-close-btn {
+    position: absolute;
+    box-sizing: border-box;
     border-radius: 50%;
-        /* width: 100%;
+    /* width: 100%;
     height: 100%; */
     padding: 8px;
-    border: 1px solid #0000001A;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    fill: #2E2F42;
+    background: #E7E9FC;
 }
 
-.logo-modal-close {
-    fill: #2E2F42;
-}
+
+.logo-modal-close {}
