@@ -695,6 +695,9 @@ label {
     position: absolute;
 }
 
+.modal-form-label {
+    position: relative;
+}
 
 .logo-modal-close {
     position: absolute;
