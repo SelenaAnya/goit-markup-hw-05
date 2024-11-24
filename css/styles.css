@@ -697,10 +697,9 @@ label {
 }
 
 .modal-form {
-    display: block;
+    /* display: block; */
     margin-bottom: 8px;
     color: #8E8F99;
-
 }
 
 .modal-form-cell {
@@ -709,6 +708,7 @@ label {
     border-radius: 4px;
     height: 40px;
     /* margin-bottom: 8px; */
+    position: relative;
 }
 
 .modal-form-cell:focus {
@@ -728,13 +728,13 @@ logo-modal-form:focus-within {
 }
 
 .modal-form-label {
-    position: relative;
     height: 40px;
     margin-bottom: 8px;
+    position: relative;
 }
 
 .logo-modal-form {
-    position: relative;
+    position: absolute;
     fill: #000;
 
 }
