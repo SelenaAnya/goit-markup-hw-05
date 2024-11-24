@@ -851,9 +851,17 @@ label {
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.04em;
+    line-height: 1.17;
     text-align: left;
     text-decoration-line: underline;
     text-decoration-style: solid;
+    border-color: #4D5AE5;
+    color: #8e8f99;
+    outline: transparent;
+
+}
+
+.rule {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -863,9 +871,6 @@ label {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    border-color: #4D5AE5;
-    outline: transparent;
-
 }
 
 .btn-modal {
