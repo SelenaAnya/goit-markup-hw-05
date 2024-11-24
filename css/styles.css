@@ -593,6 +593,7 @@ img {
 .footer-form {
     display: flex;
     text-align: left;
+    gap: 24px;
 }
 
 .subscribe {
@@ -612,10 +613,17 @@ label {
     height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    padding: 16px 8px;
-    margin-right: 24px;
-    box-shadow: none;
+    padding-left: 16px;
+    /* margin-right: 24px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin-bottom: 8px;
+    width: 264px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+
 }
 
 .text-inn {
@@ -625,14 +633,27 @@ label {
 
 }
 
-.submit {
+.btn-submit {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 8px 24px;
-    background-color: rgba(77, 90, 229, 1);
+    background-color: #4D5AE5;
     border-radius: 4px;
     gap: 16px;
-    width: 165px;
+    max-width: 165px;
+    height: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-plaine {
+    margin-left: 16px;
 }
 
 .backdrop {
