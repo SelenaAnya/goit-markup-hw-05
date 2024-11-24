@@ -594,15 +594,8 @@
         </div>
         <div class="subscribe">
           <p class="media">Subscribe</p>
-          <!-- <div class="footer-form"> -->
-          <form
-            type="email"
-            autocomplete="on"
-            name="subscriptionForm"
-            class="footer-form"
-          >
-            <!-- <p class="text-inn">E-mail</p> -->
-             <label for=""></label>
+          <form autocomplete="on" name="subscriptionForm" class="footer-form">
+            <label for="form-modal">
             <input
               class="form"
               type="e-mail"
@@ -610,6 +603,7 @@
               placeholder="E-mail"
             />
           </form>
+          </label>
           <button class="media submit">
             Subscribe
             <svg class="btn-plaine" width="24" height="24">
@@ -621,16 +615,17 @@
       </div>
     </footer>
     <div class="backdrop" data-modal>
-      <div class="modal">
+      <div class="modal"></div>
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="logo-modal-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp1"></use>
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
+        <div class="modal-form-block">
         <form class="modal-form" name="review" action="">
           <div class="modal-form-imput">
-            <label class="modal-form" for="user-email">Name</label>
+            <label class="modal-form" for="user-mane">Name</label>
             <div class="modal-form-label">
               <input
                 class="modal-form-cell"
@@ -644,7 +639,7 @@
             </div>
           </div>
           <div class="modal-form-imput">
-            <label class="modal-form" for="user-phone"> Phone</label>
+            <label class="modal-form" for="user-phone">Phone</label>
             <div class="modal-form-label">
               <input
                 class="modal-form-cell"
@@ -698,7 +693,7 @@
         </div>
       </div>
     </div>
-
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
