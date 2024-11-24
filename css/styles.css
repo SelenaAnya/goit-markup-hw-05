@@ -821,15 +821,21 @@ label {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-family: Roboto;
     font-weight: 400;
-    line-height: 16px;
     text-align: left;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    border-color: #4D5AE5;
     color: #8e8f99;
     outline: transparent;
-    border: 1px solid rgba(46, 47, 66, 0.4)
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-bottom: 16px;
 }
+
+.user-comment:focus {
+    border-color: #4D5AE5;
+}
+
+.user-comment:focus-within {
+    border-color: #4D5AE5;
+}
+
 
 .checkbox-block {
     display: flex;
@@ -849,8 +855,6 @@ label {
     line-height: 1.17;
     letter-spacing: 0.04em;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #8e8f99;
 }
 
