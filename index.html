@@ -615,7 +615,7 @@
       </div>
     </footer>
     <div class="backdrop" data-modal>
-      <div class="modal"></div>
+      <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="logo-modal-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp1"></use>
@@ -633,7 +633,7 @@
                 id="user-name"
                 name="user-name"
               />
-              <svg class="logo-modal-form" width="18" height="18">
+              <svg class="logo-modal-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
@@ -647,7 +647,7 @@
                 id="user-phone"
                 name="user-phone"
               />
-              <svg class="logo-modal-form" width="18" height="18">
+              <svg class="logo-modal-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
@@ -661,36 +661,40 @@
                 id="user-email"
                 name="user-email"
               />
-              <svg class="logo-modal-form" width="18" height="18">
+              <svg class="logo-modal-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
           </div>
           <div class="modal-form-imput">
-            <label class="modal-form" form="userEmail">Comment</label>
+            <label class="modal-form" for="user-comment">Comment</label>
             <textarea
+              name="user-comment"
+              id="user-comment"
               name="user-text modal-form-cell"
               placeholder="Text input"
+              class="user-comment"
             ></textarea>
           </div>
         </form>
         <div class="checkbox-block">
-          <label for="checkbox" class="checkbox">
             <input
               type="checkbox"
               name="conditions"
-              id="conditions"
-              class="conditions"
+              id="user-privacy"
+              value="true"
+              class="visually-hidden"
+              name="user-privacy" 
             />
-          </label>
-          <p class="text-checkbox">
+            <label for="user-privacy" class="text-checkbox">
             I accept the terms and conditions of the
-            <a class="rule" href="">Privacy Policy</a>
-          </p>
+            <span class="rule">Privacy Policy</span>
+          </label>
         </div>
         <div class="btn-modal">
           <button class="btn-form" type="button">Send</button>
         </div>
+      </div>
       </div>
     </div>
     </div>
