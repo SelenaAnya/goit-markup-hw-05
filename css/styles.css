@@ -700,14 +700,22 @@ label {
     display: block;
     margin-bottom: 8px;
     color: #8E8F99;
+
 }
 
-.modal-form-imput {
+.modal-form-cell {
     width: 100%;
     border-color: #2E2F4266;
+    border-radius: 4px;
+    height: 40px;
+    /* margin-bottom: 8px; */
 }
 
-.modal-form-imput:focus {
+.modal-form-cell:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-form-cell:focus-within {
     border-color: #4D5AE5;
 }
 
@@ -715,9 +723,14 @@ logo-modal-form:focus {
     fill: #4D5AE5;
 }
 
+logo-modal-form:focus-within {
+    fill: #4D5AE5;
+}
+
 .modal-form-label {
     position: relative;
     height: 40px;
+    margin-bottom: 8px;
 }
 
 .logo-modal-form {
@@ -745,4 +758,35 @@ textarea {
     resize: none;
     padding: 8px 16px;
     color: #8E8F99;
+    /* border-color: #2E2F4266; */
+    border: 1px solid #2E2F4266
+}
+
+.checkbox-block {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.text-checkbox {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.rule {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
