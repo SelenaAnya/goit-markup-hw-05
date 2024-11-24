@@ -625,77 +625,77 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <div class="modal-form-block">
-          <form class="modal-form" name="review">
-            <div class="modal-form-imput">
-              <label class="modal-form" for="user-name">Name</label>
-              <div class="modal-form-label">
-                <input
-                  class="modal-form-cell"
-                  type="text"
-                  id="user-name"
-                  name="user-name"
-                />
-                <svg class="logo-modal-form" width="18" height="24">
-                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-form-imput">
-              <label class="modal-form" for="user-phone">Phone</label>
-              <div class="modal-form-label">
-                <input
-                  class="modal-form-cell"
-                  type="tel"
-                  id="user-phone"
-                  name="user-phone"
-                />
-                <svg class="logo-modal-form" width="18" height="24">
-                  <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-form-imput">
-              <label class="modal-form" for="user-email">Email</label>
-              <div class="modal-form-label">
-                <input
-                  class="modal-form-cell"
-                  type="email"
-                  id="user-email"
-                  name="user-email"
-                />
-                <svg class="logo-modal-form" width="18" height="24">
-                  <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-form-imput">
-              <label class="modal-form" for="user-comment">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="user-comment"
-              ></textarea>
-            </div>
-          </form>
-          <div class="checkbox-block">
+        <!-- <div class="modal-form-block"> -->
+        <form class="modal-form" name="review">
+          <div class="modal-form-imput">
+            <label class="modal-form" for="user-name">Name</label>
+            <!-- <div class="modal-form-label"> -->
             <input
-              type="checkbox"
-              id="user-privacy"
-              value="true"
-              class="visually-hidden"
-              name="user-privacy"
+              class="modal-form-cell"
+              type="text"
+              id="user-name"
+              name="user-name"
             />
-            <label for="user-privacy" class="text-checkbox">
-              I accept the terms and conditions of the
-              <span class="rule">Privacy Policy</span>
-            </label>
+            <svg class="logo-modal-form" width="18" height="24">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
+            <!-- </div> -->
           </div>
-          <div class="btn-modal">
-            <button class="btn-form" type="button">Send</button>
+          <div class="modal-form-imput">
+            <label class="modal-form" for="user-phone">Phone</label>
+            <div class="modal-form-label">
+              <input
+                class="modal-form-cell"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+              />
+              <svg class="logo-modal-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </div>
           </div>
+          <div class="modal-form-imput">
+            <label class="modal-form" for="user-email">Email</label>
+            <div class="modal-form-label">
+              <input
+                class="modal-form-cell"
+                type="email"
+                id="user-email"
+                name="user-email"
+              />
+              <svg class="logo-modal-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-imput">
+            <label class="modal-form" for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="user-comment"
+            ></textarea>
+          </div>
+        </form>
+        <div class="checkbox-block">
+          <input
+            type="checkbox"
+            id="user-privacy"
+            value="true"
+            class="visually-hidden"
+            name="user-privacy"
+          />
+          <label for="user-privacy" class="text-checkbox">
+            I accept the terms and conditions of the
+            <span class="rule">Privacy Policy</span>
+          </label>
         </div>
+        <div class="btn-modal">
+          <button class="btn-form" type="button">Send</button>
+        </div>
+        <!-- </div> -->
       </div>
     </div>
     <script src="./js/modal.js"></script>

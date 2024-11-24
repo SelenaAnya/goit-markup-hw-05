@@ -681,7 +681,7 @@ label {
     background-color: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
-
+    padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -795,13 +795,9 @@ logo-modal-form:focus-within {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-modal-close:focus,
-.logo-modal-close:hover {
+.modal-close-btn:focus,
+.modal-close-btn:hover {
     fill: #FFFFFF;
-}
-
-.modal-form-block {
-    padding: 72px 24px 24px 24px;
 }
 
 .modal-form-imput {
