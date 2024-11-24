@@ -753,12 +753,13 @@ label {
     border-color: #4D5AE5;
 }
 
-logo-modal-form:focus {
-    fill: #4D5AE5;
+.modal-form-label:focus,
+.modal-form-label:hover {
+    border-color: #4D5AE5;
 }
 
-logo-modal-form:focus-within {
-    fill: #4D5AE5;
+.modal-form-label:focus-within {
+    border-color: #4D5AE5;
 }
 
 .modal-form-label {
@@ -772,11 +773,12 @@ logo-modal-form:focus-within {
     fill: #000;
     left: 16px;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-modal-form:focus {
+.modal-form-cell .logo-modal-form:focus,
+.modal-form-cell .logo-modal-form :hover {
     fill: #4D5AE5;
 }
 
@@ -819,10 +821,6 @@ logo-modal-form:focus-within {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-comment {
-    border-color: #4D5AE5;
-}
-
 .checkbox-block {
     display: flex;
     text-align: left;
@@ -847,7 +845,7 @@ logo-modal-form:focus-within {
 }
 
 
-.rule {
+.user-comment {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -865,6 +863,7 @@ logo-modal-form:focus-within {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    border-color: #4D5AE5;
 
 }
 
