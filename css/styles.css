@@ -734,7 +734,7 @@ logo-modal-form:focus-within {
 }
 
 .logo-modal-form {
-    position: absolute;
+    position: relative;
     fill: #000;
 
 }
@@ -765,6 +765,7 @@ textarea {
 .checkbox-block {
     display: flex;
     /* justify-content: space-between; */
+    margin-bottom: 24px;
 }
 
 .text-checkbox {
@@ -787,6 +788,24 @@ textarea {
     text-align: left;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+}
+
+.btn-modal {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.btn-form {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 16px 32px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
