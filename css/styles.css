@@ -842,7 +842,8 @@ label {
 
 .checkbox-block {
     display: flex;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 24px;
 
 }
@@ -879,9 +880,6 @@ label {
     fill: #F4F4FD;
 }
 
-/* .text-checkbox {
-
-} */
 
 .rule-link {
     color: #4d5ae4;
