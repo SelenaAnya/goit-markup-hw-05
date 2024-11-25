@@ -782,8 +782,8 @@ label {
     border-color: #4D5AE5;
 }
 
-.logo-modal-form.modal-form-cell:hover,
-.logo-modal-form.modal-form-cell:focus {
+.modal-form-cell:hover+.logo-modal-form,
+.modal-form-cell:focus+.logo-modal-form {
     fill: #4D5AE5;
 }
 
