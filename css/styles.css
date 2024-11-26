@@ -791,6 +791,7 @@ label {
     position: absolute;
     box-sizing: border-box;
     padding: 8px;
+    fill: #000;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -879,7 +880,7 @@ input[type="checkbox"]:checked+.text-checkbox>.rule {
 }
 
 .rule-link {
-    color: #4d5ae4;
+    color: #4d5ae5;
 }
 
 .btn-form {
