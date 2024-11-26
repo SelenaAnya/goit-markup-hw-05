@@ -853,7 +853,13 @@ label {
     letter-spacing: 0.04em;
     text-align: left;
     color: #8e8f99;
+
+    display: block;
+    position: relative;
+
 }
+
+.rule-pict {}
 
 .rule {
     display: inline-flex;
@@ -865,6 +871,7 @@ label {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    position: absolute;
 }
 
 .visually-hidden:checked+.rule {
