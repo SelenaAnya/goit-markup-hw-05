@@ -733,6 +733,7 @@ label {
 .modal-close-btn:hover {
     border: none;
     background-color: #404bbf;
+    fill: #FFFFFF;
 }
 
 .logo-modal-close:focus,
