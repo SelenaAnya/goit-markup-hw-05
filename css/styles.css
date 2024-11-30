@@ -813,6 +813,11 @@ label {
     margin-bottom: 8px;
 }
 
+.modal-close-btn:focus,
+.modal-close-btn:hover {
+    fill: #FFFFFF;
+}
+
 .modal-form-comment {
     margin-bottom: 16px;
 }
