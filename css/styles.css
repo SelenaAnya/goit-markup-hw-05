@@ -649,8 +649,8 @@ label {
 }
 
 .btn-plaine {
-    fill: #FFFFFF
-        /* margin-left: 16px; */
+    fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 .backdrop {
@@ -678,7 +678,7 @@ label {
     top: 50%;
     left: 50%;
     width: 408px;
-    max-height: 584px;
+    min-height: 584px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -765,6 +765,7 @@ label {
 
 .modal-form-label:focus-within {
     border-color: #4D5AE5;
+    fill: #ffffff;
 }
 
 .modal-form-label {
