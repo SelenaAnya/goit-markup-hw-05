@@ -720,16 +720,30 @@ label {
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.logo-modal-close {
+    position: absolute;
+    box-sizing: border-box;
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:focus,
 .modal-close-btn:hover {
     border: none;
     background-color: #404bbf;
-    fill: #fff;
 }
 
+/* .logo-modal-close:hover+.modal-close-btn,
+.logo-modal-close:focus+.modal-close-btn {
+    fill: #FFFFFF;
+} */
+
+.logo-modal-close:focus,
+.logo-modal-close:hover {
+    fill: #FFFFFF;
+}
 
 .modal-form {
     display: block;
@@ -753,20 +767,16 @@ label {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-close-btn:focus {
-    border-color: #4D5AE5;
-    fill: #ffffff;
-} */
 
 .modal-form-label:focus,
 .modal-form-label:hover {
     border-color: #4D5AE5;
-    fill: #ffffff;
+    /* fill: #ffffff; */
 }
 
 .modal-form-label:focus-within {
     border-color: #4D5AE5;
-    fill: #ffffff;
+    /* fill: #ffffff; */
 }
 
 .modal-form-label {
@@ -796,26 +806,8 @@ label {
 }
 
 
-
-.logo-modal-close {
-    position: absolute;
-    box-sizing: border-box;
-    fill: #000;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo-modal-close:focus,
-.logo-modal-close:hover {
-    fill: #FFFFFF;
-}
-
 .modal-form-imput {
     margin-bottom: 8px;
-}
-
-.modal-close-btn:focus,
-.modal-close-btn:hover {
-    fill: #FFFFFF;
 }
 
 .modal-form-comment {
@@ -870,8 +862,6 @@ label {
     color: #8e8f99;
     display: block;
 }
-
-.rule-pict {}
 
 .rule {
     display: inline-flex;
