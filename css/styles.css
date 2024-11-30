@@ -735,10 +735,20 @@ label {
     background-color: #404bbf;
 }
 
-.logo-modal-close:focus,
-.logo-modal-close:hover {
+.modal-close-btn:focus,
+.modal-close-btn:hover {
     fill: #FFFFFF;
 }
+
+.logo-modal-close:hover,
+.logo-modal-close:focus {
+    fill: #ffffff;
+}
+
+/* .logo-modal-close:focus+.modal-close-btn,
+.logo-modal-close:hover+.modal-close-btn {
+    fill: #FFFFFF;
+} */
 
 .modal-form {
     display: block;
