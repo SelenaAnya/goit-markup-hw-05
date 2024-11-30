@@ -735,11 +735,6 @@ label {
     background-color: #404bbf;
 }
 
-/* .logo-modal-close:hover+.modal-close-btn,
-.logo-modal-close:focus+.modal-close-btn {
-    fill: #FFFFFF;
-} */
-
 .logo-modal-close:focus,
 .logo-modal-close:hover {
     fill: #FFFFFF;
