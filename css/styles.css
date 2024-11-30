@@ -249,7 +249,7 @@ img {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 48px;
-    max-width: 1440px;
+
 }
 
 .btn-business {
@@ -645,7 +645,8 @@ label {
 }
 
 .btn-plaine {
-    margin-left: 16px;
+    fill: #FFFFFF
+        /* margin-left: 16px; */
 }
 
 .backdrop {
