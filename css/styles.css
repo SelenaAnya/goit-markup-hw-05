@@ -648,10 +648,11 @@ label {
     align-items: center;
     color: #FFFFFF;
     border: none;
+
 }
 
 .btn-plaine {
-    /* margin-left: 16px; */
+    margin-left: 16px;
     fill: #ffffff;
 }
 
