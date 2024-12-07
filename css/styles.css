@@ -1,4 +1,3 @@
-
 body {
     font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
@@ -270,7 +269,7 @@ hero-block {
     display: block;
     min-width: 169px;
     height: 56px;
-    /* bottom: none; */
+    border: none;
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
@@ -561,7 +560,7 @@ hero-block {
 }
 
 .footer-social {
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .media {
@@ -576,7 +575,6 @@ hero-block {
 }
 
 .footer-social .card-content {
-    gap: 16px;
     /* display: flex; */
     justify-content: left;
 }
@@ -650,6 +648,11 @@ label {
     color: #FFFFFF;
     border: none;
 
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+    background-color: #404BBF;
 }
 
 .btn-plaine {
