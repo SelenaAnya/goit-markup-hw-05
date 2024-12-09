@@ -398,7 +398,7 @@ hero-block {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 24px;
 }
 
 .sosial {
@@ -577,6 +577,7 @@ hero-block {
 .footer-social .card-content {
     /* display: flex; */
     justify-content: left;
+    gap: 16px;
 }
 
 .footer-social .sosial {
