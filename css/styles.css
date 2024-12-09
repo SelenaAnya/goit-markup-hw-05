@@ -398,7 +398,7 @@ hero-block {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 8px;
 }
 
 .sosial {
@@ -621,7 +621,7 @@ label {
     padding-left: 16px;
     /* margin-right: 24px; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     width: 264px;
     background-color: transparent;
     font-size: 12px;
